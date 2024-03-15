@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Crie o seu Evento</title>
+</head>
+<body>
+
+    <div class="page">
+        <header>
+            <h1>Crie e compartilhe seu evento.</h1>
+            <p>O primeiro passo, é preencher esse formulário de inscrição.</p>
+        </header>
+        
+   
+
+
+        <form>
+            <fieldset>
+                <div class="fieldset-wrapper">
+                <legend>Informações do Evento</legend>
+
+
+                <div class="input-wrapper">
+                    <label for="event-title">Título do evento <span>(mínimo 8 caracteres)</span></label>
+                    <input type="text" id="event-title"/>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="event-whatsapp">Link do Evento <span>(comece com https://)</span></label>
+                    <input type="text" id="event-whatsapp"/>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="event-link">Whatsapp para contato <span>(somente números)</span></label>
+                    <input type="text" id="event-link"/>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="event-info">Informações Extras </label>
+                    <textarea id="event-info"></textarea>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="event-category">Categoria</label>
+                    <select id="event-category">
+                        <option value="live">Ao vivo</option>
+                        <option value="podcast">Podcast</option>
+                        <option value="mentorship">Mentoria</option>
+                    </select>
+                </div>
+
+            </div>
+            </fieldset>
+
+
+            <fieldset>
+                <div class="fieldset-wrapper">
+                <legend>Privacidade</legend>
+
+                <div class="input-wrapper">
+                    <label for="event-email">E-mail do administrador <span>(mínimo 8 caracteres)</span></label>
+                    <input type="text" id="event-email"/>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="event-title">Título do evento <span>(mínimo 8 caracteres)</span></label>
+                    <input type="text" id="event-title"/>
+                </div>
+
+                </div>
+            </fieldset>
+            
+        </form>
+    </div>
+
+</body>
+</html>
