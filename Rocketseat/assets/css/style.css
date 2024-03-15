@@ -61,7 +61,7 @@ form {
     margin-top: 38px;
     background-color: #fafafc;
     min-height: 300px;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
     padding: 64px;
     display: flex;
     flex-direction: column;
@@ -98,7 +98,8 @@ fieldset legend {
     
 }
 
-.input-wrapper label {
+.input-wrapper label ,
+.checkbox-wrapper label {
     font-size: 14px;
     line-height: 24px;
     color: #4e4958;
@@ -133,3 +134,71 @@ fieldset legend {
     height: 168px;
 }
 
+.col-3 {
+    display: flex;
+    gap: 20px;
+}
+
+.col-3 > div:nth-child(1) {
+    width: 100%;
+}
+
+
+.checkbox-wrapper label {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 0;
+}
+
+.checkbox-wrapper {
+    position: relative;
+}
+
+.checkbox-wrapper input {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+}
+
+.checkbox-wrapper label::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    border-radius: 8px;
+    display: block;
+    
+}
+
+footer {
+    background: #f0f0f4;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 64px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-top: 1px solid #d6d6d6;
+    border-radius: 0 0 8px 8px;
+}
+
+footer .button {
+   height: 56px; 
+   background-color: #04d361;
+   border: 0;
+   font-family: 'Archivo';
+   color: white;
+   font-size: 16px;
+   line-height: 26px;
+   font-weight: 600;
+
+}
+
+footer .button:hover {
+    background: #08a04c;
+}
+
+input:invalid {
+   border: 1px solid red;
+}
