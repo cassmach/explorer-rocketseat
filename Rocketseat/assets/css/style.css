@@ -197,8 +197,11 @@ footer .button {
 
 footer .button:hover {
     background: #08a04c;
+<<<<<<< HEAD
 }
 
 input:invalid {
    border: 1px solid red;
+=======
+>>>>>>> f9c9d32a92c8dca6dc98ce443ad55afc2256ef6e
 }
