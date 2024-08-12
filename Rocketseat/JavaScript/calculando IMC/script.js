@@ -24,6 +24,9 @@ const patients = [
     },
 ];
 
+
+
+
 alert (`
    Paciente ${patients[0].name} possui o IMC de ${(patients[0].weight / (patients[0].heigth ** 2)).toFixed(2)}
    `)
