@@ -40,7 +40,7 @@ export default function Timer ({
                 
      
             if (seconds <= 0) {
-                seconds = 10
+                seconds = 60
                 minutes = minutes -1 
             }
             updateDisplay(minutes, String(seconds -1))
