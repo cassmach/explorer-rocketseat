@@ -1,0 +1,14 @@
+{
+  "name": "aprendendonodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "author": "Cássio Machado",
+  "license": "ISC",
+  "description": "API desenvolvida no programa Explorer da Rocketseat",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
